@@ -2,7 +2,8 @@ def insertion_sort(A,n):
     i = 0 
     first = A[i]
     p = 0 
-    
+
+    # to get the location of the min ele in the array and set it to first
     for i in range(1,n):
         if A[i] < first:
             p = i 
@@ -10,6 +11,7 @@ def insertion_sort(A,n):
         A[p] = A[0]
         A[0] = first 
 
+    #insert the element in appropiate location
     for i in range(2,n):
         x = A[i]
         j = i 
