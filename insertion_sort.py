@@ -23,7 +23,6 @@ def insertion_sort(A,n):
 def main():
     A = [3,18,35,8,14,41,20,39]
     n = len(A)
-    print(n)
     print(A)
     sorted_A = insertion_sort(A,n) 
     print(sorted_A) 
