@@ -5,8 +5,8 @@ class Stack:
         self.tos = 0 
 
     def Push(self,x:int):
+        self.tos += 1
         self.st.append(x)
-        self.tos += 1 
 
     def Top(self):
         return self.st[self.tos-1]
